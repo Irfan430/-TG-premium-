@@ -1,0 +1,43 @@
+{
+  "welcome": {
+    "title": "🤖 Welcome to Premium Bot",
+    "description": "Hi {name}! I'm your premium Telegram bot with advanced features.",
+    "features": "✨ <b>Available Features:</b>\n• YouTube MP3/MP4 downloads\n• Multi-language support\n• Admin panel\n• Command logging\n• And much more!",
+    "get_started": "Use /help to see all available commands."
+  },
+  "help": {
+    "title": "📋 Bot Commands",
+    "user_commands": "👤 <b>User Commands:</b>\n/start - Start the bot\n/help - Show this help message\n/ytmp3 <link> - Download YouTube audio\n/ytmp4 <link> - Download YouTube video",
+    "admin_commands": "👨‍💼 <b>Admin Commands:</b>\n/broadcast <message> - Send message to all users\n/shutdown - Shutdown the bot",
+    "support": "Need help? Contact the bot administrator."
+  },
+  "errors": {
+    "general": "❌ An error occurred. Please try again later.",
+    "invalid_url": "❌ Please provide a valid YouTube URL.",
+    "download_failed": "❌ Failed to download the content. Please try again.",
+    "file_too_large": "❌ File is too large to send via Telegram.",
+    "not_found": "❌ Content not found or unavailable.",
+    "access_denied": "❌ Access denied. Admin privileges required.",
+    "flood_control": "🚫 You're sending messages too quickly. Please wait {seconds} seconds.",
+    "missing_parameter": "❌ Missing required parameter: {parameter}"
+  },
+  "success": {
+    "download_started": "⏳ Download started... Please wait.",
+    "download_complete": "✅ Download completed successfully!",
+    "broadcast_sent": "✅ Broadcast message sent to {count} users.",
+    "shutdown_initiated": "🛑 Bot shutdown initiated."
+  },
+  "info": {
+    "processing": "⏳ Processing your request...",
+    "please_wait": "Please wait while I process your request.",
+    "file_ready": "📁 Your file is ready!",
+    "bot_stats": "📊 <b>Bot Statistics:</b>\nTotal Users: {totalUsers}\nActive Today: {activeToday}\nActive This Week: {activeThisWeek}"
+  },
+  "buttons": {
+    "help": "📋 Help",
+    "support": "💬 Support",
+    "refresh": "🔄 Refresh",
+    "download": "⬇️ Download",
+    "cancel": "❌ Cancel"
+  }
+}
